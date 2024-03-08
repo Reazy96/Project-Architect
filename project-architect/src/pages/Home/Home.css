@@ -1,0 +1,99 @@
+.top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.top-left {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-left h1 {
+  font-size: 50px;
+  font-weight: 300;
+  color: lightgray;
+}
+.top-left h2 {
+  font-size: 30px;
+  margin-right: 136px;
+}
+
+.top-right {
+  flex: 3;
+  position: relative;
+}
+
+.top-right img {
+  width: 100%;
+}
+
+.padding button {
+  background-color: white;
+  border: none;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.top-right button {
+  position: absolute;
+  bottom: 4px;
+  left: 0;
+}
+.about {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 50px;
+  padding: 20px 150px;
+}
+.about-1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.about-2 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-3 {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: space-between;
+}
+.about-3 h2 {
+  font-size: 50px;
+  font-weight: 300;
+  color: lightgray;
+  margin-bottom: 30px;
+}
+.about-3 p {
+  font-weight: 100;
+  line-height: 25px;
+  color: rgba(0, 0, 0, 0.578);
+  width: 400px;
+}
+.mfms h2 {
+  font-size: 50px;
+  font-weight: 300;
+  color: lightgray;
+}
+.mfms article {
+  display: flex;
+
+  justify-content: space-between;
+}
+.mfms article div {
+  display: flex;
+}

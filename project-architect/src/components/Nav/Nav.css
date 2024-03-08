@@ -1,0 +1,12 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding-block: 30px;
+}
+nav a {
+  margin: 0 15px;
+}
+
+.active {
+  border-block: 1px solid black;
+}
